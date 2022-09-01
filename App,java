@@ -1,0 +1,83 @@
+public class App {
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+
+        Character knight = new Character();
+
+        knight.strength = 10;
+        knight.agility = 5;
+        knight.intelligence = 0;
+        knight.name = "Chen";
+        knight.sayMyName();
+        knight.sayMyStrength();
+        knight.sayMyAgility();
+        knight.sayMyintelligence();
+
+        Character mage = new Character();
+
+        mage.strength = 0;
+        mage.agility = 5;
+        mage.intelligence = 10;
+        mage.name = "Akasha";
+        mage.sayMyName();
+        mage.sayMyStrength();
+        mage.sayMyAgility();
+        mage.sayMyintelligence();
+
+        Character thief = new Character();
+
+        thief.strength = 5;
+        thief.agility = 10;
+        thief.intelligence = 0;
+        thief.name = "Gondar";
+        thief.sayMyName();
+        thief.sayMyStrength();
+        thief.sayMyAgility();
+        thief.sayMyintelligence();
+
+        Character healer = new Character();
+        
+        healer.strength = 10;
+        healer.agility = 7;
+        healer. intelligence = 0;
+        healer.name = "Belerick";
+        healer.sayMyName();
+        healer.sayMyStrength();
+        healer.sayMyAgility();
+        healer.sayMyintelligence();
+
+           // Weapon Class
+
+    Weapon LightningAxe= new Weapon();
+
+    LightningAxe.object = "Truncheon";
+    LightningAxe.name = "Lightning Axe";
+    LightningAxe.damage = 300;
+    LightningAxe.Weight = 65;
+    LightningAxe.Rarity = "Rare";
+    LightningAxe.Description = "The deadliest weapon";
+    LightningAxe.Killerweapon();
+
+    Weapon Odinmachinegun = new Weapon();
+
+    Odinmachinegun.object = "MachineGun";
+    Odinmachinegun.name = "Odin";
+    Odinmachinegun.damage = 400;
+    Odinmachinegun.Weight = 70;
+    Odinmachinegun.Rarity = "Rare";
+    Odinmachinegun.Description = "This kind of machinegun is too heavy and not easy to use";
+    Odinmachinegun.Killerweapon();
+
+    Weapon Katanafiresword = new Weapon();
+
+    Katanafiresword.object = "Sword";
+    Katanafiresword.name = "Katana Fire Sword";
+    Katanafiresword.damage = 100;
+    Katanafiresword.Weight = 30;
+    Katanafiresword.Rarity = "unique";
+    Katanafiresword.Description = "This katana is not an ordinary sword, it has a lot of powers";
+    Katanafiresword.Killerweapon();
+    }
+}
